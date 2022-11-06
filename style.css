@@ -3,8 +3,13 @@ img {
   height: auto;
 }
 
+@media (min-width: 1070px) {
+  img {
+    height: 600px;
+  }
+}
+
 .banner .banner-figure > img{
-  height: 500px;
   padding-right: 75px;
   border: 1px solid whitesmoke;
 }
