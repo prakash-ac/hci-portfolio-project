@@ -5,7 +5,7 @@ img {
 
 .banner .banner-figure > img{
   height: 500px;
-  padding-right: 35px;
+  padding-right: 75px;
   border: 1px solid whitesmoke;
   /* border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem; */
@@ -33,9 +33,13 @@ h1 {
 }
 
 body {
-  width: 75%;
+  /* width: 75%; */
   font-family: 'Helvetica Neue',Helvetica,arial,sans-serif;
   color: #232323;
+}
+
+.container, .banner {
+  width: 75%;
 }
 
 .frozen-wrappers > p{
@@ -126,4 +130,20 @@ ol > li::marker {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+footer {
+  position: relative;
+  margin-top: 30px;
+  bottom: 0;
+  width: 95%;
+  padding: 40px;
+  color:#050404;
+  background-color: inherit;
+  border-top: 1px solid rgb(161, 155, 155);
+  text-align: center;
+}
+
+footer > span{
+  font-size: 14px;
 }
