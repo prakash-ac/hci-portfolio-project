@@ -6,6 +6,32 @@ img {
 @media (min-width: 1070px) {
   img {
     height: 600px;
+    width: 700px;
+  }
+  .banner .banner-figure > img{
+    width: 900px;
+  }
+
+  /* .banner{
+    margin: 0;
+  } */
+  section {
+    max-width: 970px;
+  }
+  /* .preparing-dough, .prepping-mix, .putting-everything-together, .making-sauce{
+    text-align: center;
+  }
+  ul, ol {
+    display: inline-block;
+    text-align: left;
+  } */
+}
+@media (max-width: 1069px) {
+  body {
+    font-size: 18px;
+  }
+  h1, .banner > h1 {
+    font-size: 24px;
   }
 }
 
@@ -81,6 +107,10 @@ body {
   padding-top: 60px;
 }
 
+.sidenav > li{
+  list-style-type: none;
+}
+
 .sidenav a {
   padding: 8px 8px 20px 32px;
   text-decoration: none;
@@ -125,7 +155,7 @@ footer {
   position: relative;
   margin-top: 30px;
   bottom: 0;
-  width: 95%;
+  width: 100%;
   padding: 40px 0;
   color:#050404;
   background-color: inherit;

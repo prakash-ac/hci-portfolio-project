@@ -6,7 +6,7 @@
     <script src="./main.js"></script>
   </head>
   <body>
-    <div class="banner">
+    <section class="banner">
       <h1>How to Make Chicken Momo</h1>
       <span onclick="openNav()">&#9776;</span>
       <figure class="banner-figure">
@@ -17,16 +17,26 @@
         Its popularity in modern day Nepal has risen because of its delicious taste. There is almost no Nepali restaurant across the globe where you would not find Momo in their menus!
         So, I would like to present the recipe of this famous Nepali dish to you. Although it requires many ingredients and a lot of effort, you will definitely find it worth at the end. 
       </p>
-    </div>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#doughPrep" onclick="closeNav()">Preparing the Dough</a>
-      <a href="#fillingMixPrep" onclick="closeNav()">Prepping for the Filling Mix</a>
-      <a href="#makingSauce" onclick="closeNav()">Making the Momo Sauce</a>
-      <a href="#puttingEverythingTogether" onclick="closeNav()">Putting Everything Together..</a>
-    </div>
+    </section>
+    <nav id="mySidenav" class="sidenav">
+      <li>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      </li>
+      <li>
+        <a href="#doughPrep" onclick="closeNav()">Preparing the Dough</a>
+      </li>
+      <li>
+        <a href="#fillingMixPrep" onclick="closeNav()">Prepping for the Filling Mix</a>
+      </li>
+      <li>
+        <a href="#makingSauce" onclick="closeNav()">Making the Momo Sauce</a>
+      </li>
+      <li>
+        <a href="#puttingEverythingTogether" onclick="closeNav()">Putting Everything Together..</a>
+      </li>
+    </nav>
     <div class="container">
-      <div class="preparing-dough">
+      <section class="preparing-dough">
         <h2 id="doughPrep">Preparing the Dough</h2>
         <figure>
           <img src="./images/preparing-dough.png">
@@ -45,15 +55,15 @@
           <li>Add water and knead the dough well.</li>
           <li>Cover and leave the dough for about 30 minutes.</li>
         </ol>
-        <div class="frozen-wrappers">
+        <section class="frozen-wrappers">
           <p>Alternatively, if you want to reduce some efforts, you could purchase one of these dumpling wrappers/skin in a Chinese grocery store. My wife prefers this alternative as it saves some time and efforts.</p>
           <figure>
             <img src="./images/momo-wrapper.jpeg">
             <figcaption>Frozen Momo wrappers</figcaption>
           </figure>
-        </div>
-      </div>
-      <div id="fillingMixPrep" class="prepping-mix">
+        </section>
+      </section>
+      <section id="fillingMixPrep" class="prepping-mix">
         <h2>Prepping for the Filling Mix</h2>
         <figure>
           <img src="./images/filling-mix.jpeg">
@@ -73,13 +83,13 @@
           <li>1 tablespoon of salt</li>
         </ul>
         <h3>Directions</h3>
-          <ol class="direction-box">
-            <li>In another large bowl, combine all filing ingredients.</li>
-            <li>Mix all the ingredients well.</li>
-            <li>Cover and refrigerate for about an hour.</li>
-          </ol>
-      </div>
-      <div id="makingSauce" class="making-sauce">
+        <ol class="direction-box">
+          <li>In another large bowl, combine all filing ingredients.</li>
+          <li>Mix all the ingredients well.</li>
+          <li>Cover and refrigerate for about an hour.</li>
+        </ol>
+      </section>
+      <section id="makingSauce" class="making-sauce">
         <h2>Making the Momo Sauce</h2>
         <figure>
           <img src="./images/momo-sauce.jpeg">
@@ -100,8 +110,8 @@
           <li>After the skin of the tomato pieces are slightly burnt, remove from the grill.</li>
           <li>Combine all the ingredients into grinder, and grind.</li>
         </ol>
-      </div>
-      <div id="puttingEverythingTogether" class="putting-everything-together">
+      </section>
+      <section id="puttingEverythingTogether" class="putting-everything-together">
         <h2>Putting Everything Together..</h2>
         <figure>
           <img src="./images/momo-ready-to-cook.jpeg">
@@ -125,7 +135,7 @@
           <li>Leave the dumlings for 12 minutes.</li>
           <li>Once done, take the dumplings off the steamer and serve them immediately.</li>
         </ol>
-      </div>
+      </section>
       <p><strong>Give yourself a pat on your shoulder for all the hard work. Hope you enjoy the juicy and delicious Momos!</strong></p>
     </div>
     <footer>
